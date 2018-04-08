@@ -15,7 +15,7 @@ var myMap;
 var canvas;
 
 function preload () {
-  table = loadTable('data/openpaths_vincent76.csv', 'csv', 'header');
+  table = loadTable('openpaths_vincent76.csv', 'csv', 'header');
 }
 
 function setup() {
